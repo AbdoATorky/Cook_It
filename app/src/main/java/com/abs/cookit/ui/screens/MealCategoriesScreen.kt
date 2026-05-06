@@ -290,6 +290,7 @@ fun MealItem(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 32.dp)
+                .shadow(elevation = 20.dp)
         ) {
             Column(
                 modifier = Modifier
